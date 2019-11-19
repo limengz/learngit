@@ -1,0 +1,16 @@
+13:16:26.864 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:26.865 request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:16:26.868 response time in milliseconds: 2.43
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+

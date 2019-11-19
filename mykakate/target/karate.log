@@ -1,0 +1,855 @@
+13:48:38.354 [main] INFO  wiremock.org.eclipse.jetty.util.log - Logging initialized @1025ms
+13:48:38.441 [main] INFO  w.org.eclipse.jetty.server.Server - jetty-9.2.z-SNAPSHOT
+13:48:38.453 [main] INFO  w.o.e.j.s.handler.ContextHandler - Started w.o.e.j.s.ServletContextHandler@595b007d{/__admin,null,AVAILABLE}
+13:48:38.454 [main] INFO  w.o.e.j.s.handler.ContextHandler - Started w.o.e.j.s.ServletContextHandler@399f45b1{/,null,AVAILABLE}
+13:48:38.466 [main] INFO  w.o.e.j.s.NetworkTrafficServerConnector - Started NetworkTrafficServerConnector@1b7cc17c{HTTP/1.1}{0.0.0.0:8080}
+13:48:38.466 [main] INFO  w.org.eclipse.jetty.server.Server - Started @1140ms
+13:48:38.770 [qtp6320204-20] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+13:48:53.436 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:48:53.712 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:48:53.732 [qtp6320204-18] INFO  / - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+13:48:53.747 [main] DEBUG com.intuit.karate - response time in milliseconds: 32.32
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:48:53.811 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:48:53.812 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:48:53.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.83
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:48:53.831 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:48:53.832 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:48:53.836 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.89
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:18:22.951 [main] INFO  com.intuit.karate.Runner - Karate version: 0.9.2
+14:21:19.952 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:21:20.210 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:21:20.237 [main] DEBUG com.intuit.karate - response time in milliseconds: 24.86
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:21:20.307 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:21:20.308 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:21:20.312 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.10
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:21:20.329 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:21:20.330 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:21:20.334 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.78
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:21:20.402 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:21:20.404 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:21:20.668 [main] DEBUG com.intuit.karate - response time in milliseconds: 261.59
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:21:20 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:23:20.183 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:20.443 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:23:20.469 [main] DEBUG com.intuit.karate - response time in milliseconds: 24.16
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:23:20.544 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:20.545 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:23:20.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.84
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:23:20.566 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:20.568 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:23:20.570 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.14
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:23:20.639 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:20.642 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:23:20.893 [main] DEBUG com.intuit.karate - response time in milliseconds: 250.37
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:23:20 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:23:20.899 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:20.900 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:23:21.020 [main] DEBUG com.intuit.karate - response time in milliseconds: 116.95
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:23:20 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:23:21.022 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: {content=[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}], pageable={sort={sorted=true, unsorted=false, empty=false}, pageNumber=0, pageSize=20, offset=0, unpaged=false, paged=true}, last=false, totalPages=2, totalElements=29, sort={sorted=true, unsorted=false, empty=false}, numberOfElements=20, first=true, size=20, number=0, empty=false}, expected: {platform=JD}, reason: all key-values did not match
+14:24:35.365 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:24:35.635 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:24:35.660 [main] DEBUG com.intuit.karate - response time in milliseconds: 23.81
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:24:35.734 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:24:35.735 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:24:35.738 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.79
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:24:35.755 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:24:35.756 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:24:35.762 [main] DEBUG com.intuit.karate - response time in milliseconds: 5.04
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:24:35.832 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:24:35.835 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:24:35.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 117.85
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:24:35 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:24:35.960 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:24:35.962 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:24:36.081 [main] DEBUG com.intuit.karate - response time in milliseconds: 117.41
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:24:36 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:24:36.082 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: {content=[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}], pageable={sort={sorted=true, unsorted=false, empty=false}, pageNumber=0, pageSize=20, offset=0, unpaged=false, paged=true}, last=false, totalPages=2, totalElements=29, sort={sorted=true, unsorted=false, empty=false}, numberOfElements=20, first=true, size=20, number=0, empty=false}, expected: {platform=JD}, reason: all key-values did not match
+14:27:51.154 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:51.408 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:27:51.435 [main] DEBUG com.intuit.karate - response time in milliseconds: 24.52
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:27:51.512 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:51.513 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:27:51.516 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.68
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:27:51.531 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:51.533 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+14:27:51.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.26
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+14:27:51.604 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:51.607 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:27:51.836 [main] DEBUG com.intuit.karate - response time in milliseconds: 228.85
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:27:51 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:27:51.842 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:51.843 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:27:51.988 [main] DEBUG com.intuit.karate - response time in milliseconds: 143.36
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:27:51 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:27:51.996 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: response.length==29
+14:28:38.975 [main] INFO  com.intuit.karate.Runner - Karate version: 0.9.2
+14:31:04.411 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:31:04.756 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:31:04.992 [main] DEBUG com.intuit.karate - response time in milliseconds: 234.18
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:31:04 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:31:05.001 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:31:05.002 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+14:31:05.121 [main] DEBUG com.intuit.karate - response time in milliseconds: 118.40
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 06:31:05 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+14:31:05.129 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: response.length==29
+14:55:17.332 [main] INFO  com.intuit.karate.Runner - Karate version: 0.9.2
+15:32:08.057 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:32:08.310 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+15:32:08.336 [main] DEBUG com.intuit.karate - response time in milliseconds: 23.78
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+15:32:08.405 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:32:08.406 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+15:32:08.409 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.27
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+15:32:08.425 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:32:08.427 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+15:32:08.429 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.19
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+15:32:08.499 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:32:08.502 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+15:32:08.732 [main] DEBUG com.intuit.karate - response time in milliseconds: 227.05
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 07:32:08 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+15:32:08.739 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:32:08.741 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+15:32:09.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 1229.10
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 07:32:09 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+15:32:09.978 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: response.length==29
+15:52:46.426 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:52:46.741 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+15:52:46.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 166.60
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 07:52:46 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+15:52:46.917 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:52:46.918 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+15:52:47.111 [main] DEBUG com.intuit.karate - response time in milliseconds: 192.51
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 07:52:47 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+15:52:47.120 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: response.length==29
+16:07:53.441 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:07:53.758 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+16:07:54.008 [main] DEBUG com.intuit.karate - response time in milliseconds: 248.47
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 08:07:54 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+16:07:54.016 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:07:54.017 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+16:07:54.137 [main] DEBUG com.intuit.karate - response time in milliseconds: 118.13
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 08:07:54 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+16:07:54.145 [main] ERROR com.intuit.karate - assertion failed: assert evaluated to false: response.length==29
+16:14:31.076 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:14:31.401 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+16:14:31.612 [main] DEBUG com.intuit.karate - response time in milliseconds: 210.15
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 08:14:31 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+16:14:31.620 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:14:31.621 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+16:14:31.775 [main] DEBUG com.intuit.karate - response time in milliseconds: 152.99
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 07 Aug 2019 08:14:31 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"VIP","storeId":"550","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"HISHOP","storeId":"190520","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"HISHOP","storeId":"190520","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"HISHOP","storeId":"190520","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"ZD","storeId":"85383446500","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"DD","storeId":"21996","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageNumber":0,"pageSize":20,"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":2,"totalElements":29,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:12:06.713 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input 'T' expecting <EOF>
+13:12:06.719 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:feature/testoct.feature - mismatched input 'T' expecting <EOF>
+13:12:32.452 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input 'T' expecting <EOF>
+13:12:32.457 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:feature/testoct.feature - mismatched input 'T' expecting <EOF>
+13:13:13.313 [main] INFO  wiremock.org.eclipse.jetty.util.log - Logging initialized @891ms
+13:13:13.400 [main] INFO  w.org.eclipse.jetty.server.Server - jetty-9.2.z-SNAPSHOT
+13:13:13.454 [main] INFO  w.o.e.j.s.handler.ContextHandler - Started w.o.e.j.s.ServletContextHandler@459e9125{/__admin,null,AVAILABLE}
+13:13:13.455 [main] INFO  w.o.e.j.s.handler.ContextHandler - Started w.o.e.j.s.ServletContextHandler@7c7b252e{/,null,AVAILABLE}
+13:13:13.471 [main] INFO  w.o.e.j.s.NetworkTrafficServerConnector - Started NetworkTrafficServerConnector@74235045{HTTP/1.1}{0.0.0.0:8080}
+13:13:13.471 [main] INFO  w.org.eclipse.jetty.server.Server - Started @1050ms
+13:13:13.773 [qtp536765369-20] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+13:13:19.630 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input 'F' expecting <EOF>
+13:13:19.637 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:feature/TestOCTapi.feature - mismatched input 'F' expecting <EOF>
+13:13:37.672 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input 'F' expecting <EOF>
+13:13:37.680 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:feature/TestOCTapi.feature - mismatched input 'F' expecting <EOF>
+13:14:57.498 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:14:57.776 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:14:57.795 [qtp536765369-15] INFO  / - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+13:14:57.811 [main] DEBUG com.intuit.karate - response time in milliseconds: 32.10
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:14:57.881 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:14:57.882 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:14:57.885 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.43
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:14:57.901 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:14:57.902 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:14:57.906 [main] DEBUG com.intuit.karate - response time in milliseconds: 4.14
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:14:58.034 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:14:58.037 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:14:58.624 [main] DEBUG com.intuit.karate - response time in milliseconds: 583.98
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:14:58 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:14:58.632 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:14:58.633 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:14:58.794 [main] DEBUG com.intuit.karate - response time in milliseconds: 160.17
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:14:58 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:16:17.886 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:18.235 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:16:18.532 [main] DEBUG com.intuit.karate - response time in milliseconds: 295.17
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:16:18 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:16:18.539 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:18.540 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:16:18.678 [main] DEBUG com.intuit.karate - response time in milliseconds: 137.10
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:16:18 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:16:26.471 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:26.753 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:16:26.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 28.16
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:16:26.864 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:26.865 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:16:26.868 [main] DEBUG com.intuit.karate - response time in milliseconds: 2.43
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:16:26.886 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:26.888 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/user/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:16:26.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 7.27
+1 < 200
+1 < Content-Type: application/json
+1 < Server: Jetty(9.2.z-SNAPSHOT)
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding, User-Agent
+{ "id": "1234", name: "John Smith" }
+
+13:16:26.971 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:26.974 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:16:27.204 [main] DEBUG com.intuit.karate - response time in milliseconds: 228.07
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:16:27 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
+13:16:27.210 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:16:27.211 [main] DEBUG com.intuit.karate - request:
+1 > GET http://octopus-uat.baozun.com/api/core/source-market-code-mappings
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: octopus-uat.baozun.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > octopus-auth-token: 74b79aa3-1d9f-46e8-9455-100d6edb59e1
+
+13:16:27.323 [main] DEBUG com.intuit.karate - response time in milliseconds: 109.67
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Mon, 12 Aug 2019 05:16:27 GMT
+1 < Server: openresty
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"content":[{"platform":"MOMO","storeId":"20190816","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"MOMO","storeId":"20190816","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"YAHOO","storeId":"20190812","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"JD","storeId":"1000121365","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform\r\n"},{"platform":"JD","storeId":"1000121365","classify":"ORDER","sourceMarketCode":"route_pacs_oms2platform_adapter"},{"platform":"SEC","storeId":"20190704","classify":"REFUND","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"INVENTORY","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SEC","storeId":"20190704","classify":"ORDER","sourceMarketCode":"route_oms4_platform"},{"platform":"SEC","storeId":"20190704","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"PDD","storeId":"11111","classify":"LOGISTICS","sourceMarketCode":"route_oms4_platform"},{"platform":"SN","storeId":"70863206","classify":"PRODUCT","sourceMarketCode":"route_iosp_platform"},{"platform":"SN","storeId":"70863206","classify":"ORDER","sourceMarketCode":"route_oms4_platform"}],"pageable":{"sort":{"sorted":true,"unsorted":false,"empty":false},"pageSize":20,"pageNumber":0,"offset":0,"unpaged":false,"paged":true},"totalPages":2,"totalElements":37,"last":false,"sort":{"sorted":true,"unsorted":false,"empty":false},"numberOfElements":20,"first":true,"size":20,"number":0,"empty":false}
+
