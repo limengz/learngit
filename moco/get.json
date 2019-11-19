@@ -1,0 +1,13 @@
+[
+{
+  "request" :
+    {
+      "method" : "get",
+      "uri" : "/foo"
+    },
+  "response" :
+    {
+      "text" : "bar"
+    }
+}
+]

@@ -1,0 +1,75 @@
+[
+{
+    "request":
+    {
+        "uri": "/hust",
+        "queries":
+        {
+            "param": "zw"
+        }
+    },
+    "response":
+    {
+        "text": "Hello, Mocotest",
+        "headers":
+        {
+        	"SelfHeader":"SelfHeader"
+        }
+    }
+}
+]
+
+
+
+keytool -genkey -keyalg RSA -keysize 1024 -validity 365 -dname "CN=hustzw, OU=hust,O=zw, L=zhuhai, ST=guangdong, C=CN" -alias my_key -keypass 123456 -keystore my.jks -storepass 123456
+
+
+
+java -jar moco-runner-0.10.0-standalone.jar https -p 12306 -c foo.json --https my.jks --cert 123456 --keystore 123456
+
+
+[
+    {
+      "description":"模拟一个带参数的post请求",
+      "request":{
+        "uri":"/postwithparam",
+        "forms":"post",
+        "queries":{
+          "name":"lyn",
+          "age":"18"
+        }
+      },
+      "response":{
+        "text":"这是一个带参数的post请求"
+      }
+    }
+  ]
+
+
+  [
+    {
+      "description":"这是一个带header信息的post请求",
+      "request":{
+        "uri":"/post/with/header",
+        "method":"post",
+        "headers":{
+          "content-type":"application/json"
+        },
+        "json":{
+          "name":"lyn",
+          "age":"18"
+        }
+      },
+      "response":{
+        "json":{
+          "lyn":"这是lyn的post请求",
+          "status":"1"
+        }
+      }
+    }
+  ]
+
+
+  "headers":{
+    "Content-Type":"text/html;charset=gbk"
+  }

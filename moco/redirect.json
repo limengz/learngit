@@ -1,0 +1,32 @@
+[
+    {
+        "request":
+        {
+            "uri":"/get",
+            "queries":
+            {
+                "param":"zw"
+            }
+
+        },
+        "response":
+        {
+            "text":"hello world",
+        "headers":
+        {
+            "SelfHeader":"SelfHeader"
+        }
+        }
+    },
+
+    {
+        "request":
+        {
+            "uri":"/test"
+        },
+
+        "redirectTo":"http://www.baidu.com"
+    }
+
+
+]

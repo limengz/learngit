@@ -1,0 +1,12 @@
+[
+{
+    "request":
+    {
+        "uri": "/file"
+    },
+    "response":
+    {
+        "file":"test.json"
+    }
+}
+]
